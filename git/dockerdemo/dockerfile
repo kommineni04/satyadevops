@@ -1,0 +1,5 @@
+FROM php:7.1-apache
+MAINTAINER satya <ksatyaphani@gmail.com>
+COPY src/ /var/www/html
+EXPOSE 80
+
